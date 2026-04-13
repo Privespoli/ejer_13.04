@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #1f2a44, #0a0f1f 60%);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.panel {
+  width: 100%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid #4deeea;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(77, 238, 234, 0.3);
+  text-align: center;
+}
+
+h1 {
+  color: #4deeea;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px #4deeea;
+}
+
+.subtitulo {
+  margin-bottom: 20px;
+  color: #cfd8ff;
+}
+
+button {
+  background-color: #4deeea;
+  color: #0a0f1f;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+#resultado {
+  text-align: left;
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.tarjeta {
+  padding: 14px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-left: 6px solid white;
+}
+
+.combustible {
+  color: #ff5c5c;
+  border-left-color: #ff5c5c;
+}
+
+.comida {
+  color: #53ff86;
+  border-left-color: #53ff86;
+}
+
+.cargando {
+  color: #ffd166;
+  text-align: center;
+}
