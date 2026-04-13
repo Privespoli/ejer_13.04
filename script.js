@@ -10,10 +10,10 @@ async function obtenerRecursosExternos() {
     return new Promise((resolve) => {
         setTimeout(() => {
             const recursos = [
-                new Producto("Cristales de Dilitio", "combustible", 50),
-                new Producto("Raciones de Supervivencia", "comida", 120),
-                new Producto("Celdas de Energía", "combustible", 25),
-                new Producto("Fruta Estelar", "comida", 15)
+                new Producto("Diesel", "combustible", 40),
+                new Producto("Galletas Oreo", "comida", 110),
+                new Producto("Celdas de Energía", "combustible", 225),
+                new Producto("Bocadillo de calamar", "comida", 105)
             ];
             resolve(recursos);
         }, 2000);
